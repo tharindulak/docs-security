@@ -1,0 +1,40 @@
+---
+title: Security Advisory WSO2-2019-0681
+deployment_options:
+  - WSO2 Cloud
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-security/edit/main/en/docs/security-announcements/security-advisories/2020/WSO2-2019-0681.md
+---
+
+# Security Advisory WSO2-2019-0681
+
+<p className="doc-info">Published: April 4, 2020</p>
+<p className="doc-info">Version: 1.0.0</p>
+<p className="doc-info">Severity: High</p>
+<p className="doc-info">CVSS Score: 7.6 (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L)</p>
+---
+
+### AFFECTED PRODUCTS
+* WSO2 Enterprise Integrator : 6.1.1 or earlier
+
+
+### OVERVIEW
+A Broken Authentication vulnerability has been identified in tenant deactivation operation.
+
+
+### DESCRIPTION
+Tenant deactivation operation performed by a super admin user, through the management console, does not reflect until the next server restart. This vulnerability is applicable only in multi-tenant environments.
+
+
+### IMPACT
+Since deactivation of tenant requires a server restart, any user of a deactivated tenant can login to the management console and perform operations until the sever restart.
+
+
+### SOLUTION
+If you are using an affected product version, it is highly recommended to migrate to the latest released version to receive security fixes.
+
+As a temporary risk mitigation, you may restart the affected product after performing a tenant deactivation operation.
+
+
+!!! info todo
+    **If you are a WSO2 customer with a support subscription, use [WSO2 Update Manager](https://wso2.com/updates/wum)(WUM) updates in order to apply the fix to the affected versions.**

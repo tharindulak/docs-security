@@ -1,0 +1,37 @@
+---
+title: Security Advisory WSO2-2025-3302
+deployment_options:
+  - WSO2 Cloud
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-security/edit/main/en/docs/security-announcements/security-advisories/2025/WSO2-2025-3302.md
+---
+
+# Security Advisory WSO2-2025-3302
+
+<p className="doc-info">Published: May 29, 2025</p> 
+<p className="doc-info">Version: 1.0.0</p>
+<p className="doc-info">Severity: Not Applicable </p>
+<p className="doc-info">CVSS Score: Not Applicable </p>
+---
+
+### AFFECTED PRODUCTS
+* WSO2 Identity Server: 7.0.0, 6.1.0, 6.0.0, 5.11.0, 5.10.0
+
+
+### OVERVIEW
+Instructions to avoid insecure usage of OIDC Hybrid Flow.
+
+
+### DESCRIPTION
+WSO2 products support the Hybrid Flow as per the OpenID Connect (OIDC) specification, which may lead to unauthorized access. Since the Hybrid Flow allows obtaining tokens without requiring client authentication (client secret) in certain Grant Types such as 'code token' and 'code id_token token', an attacker may exploit this behavior to gain unauthorized access to protected resources.
+
+
+### IMPACT
+When 'code token' and 'code id_token token' Grant Types are used with the Hybrid Flow, an attacker could obtain access tokens without proper client authentication, potentially leading to unauthorized access and privilege escalation within affected WSO2 deployments.
+
+
+### SOLUTION
+
+This advisory aims to bring to attention that using the 'code token' and 'code id_token token' Grant Types with Hybrid Flow authentication is insecure, as outlined in the product documentation [1]. Updating the product is not required, since this is not a vulnerability of the product or the default configuration.
+
+[1] [OpenID Connect Hybrid Flow](https://is.docs.wso2.com/en/6.1.0/references/concepts/authentication/hybrid-client-profile/#openid-connect-hybrid-flow)

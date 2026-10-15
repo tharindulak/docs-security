@@ -1,0 +1,94 @@
+---
+title: Security Advisory WSO2-2021-1699
+deployment_options:
+  - WSO2 Cloud
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-security/edit/main/en/docs/security-announcements/security-advisories/2021/WSO2-2021-1699.md
+---
+
+# Security Advisory WSO2-2021-1699
+
+<p className="doc-info">Published: November 10, 2024</p>
+<p className="doc-info">Version: 2.0.0</p>
+<p className="doc-info">Severity: Critical</p>
+<p className="doc-info">CVSS Score: 10.0 (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H)</p>
+---
+
+### AFFECTED PRODUCTS
+* WSO2 API Manager : 3.0.0 , 3.1.0 , 3.2.0 , 4.0.0
+* WSO2 API Manager Analytics : 2.6.0, 3.0.0, 3.1.0, 3.2.0
+* WSO2 Identity Server : 5.9.0, 5.10.0, 5.11.0
+* WSO2 Identity Server Analytics : 5.7.0, 5.8.0
+* WSO2 Identity Server as Key Manager : 5.9.0, 5.10.0
+* WSO2 Enterprise Integrator :  6.1.0, 6.1.1, 6.2.0, 6.3.0, 6.4.0, 6.5.0, 6.6.0
+* WSO2 Enterprise Integrator Analytics : 7.1.0
+* WSO2 Micro Integrator : 1.1.0, 1.2.0, 4.0.0
+* WSO2 Micro Integrator Dashboard : 4.0.0, 4.0.1
+* WSO2 Micro Integrator Monitoring Dashboard :  1.1.0, 1.1.1, 1.2.0
+* WSO2 Stream Integrator : 1.1.0, 4.0.0
+* WSO2 Stream Integrator Tooling : 1.0.0, 1.1.0, 4.0.0
+* WSO2 Stream Processor : 4.0.0, 4.1.0, 4.2.0, 4.3.0, 4.4.0
+
+
+### OVERVIEW
+Log4j remote code execution zero-day vulnerability (CVE-2021-44228).
+
+
+### DESCRIPTION
+Security advisory contents from Apache Log4j2 is as follows [^1][^2]:
+
+:::note[Description from CVE-2021-44228]
+
+Apache Log4j2 &lt;=2.14.1 JNDI features used in the configuration, log messages, and parameters do not protect against an attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled.
+
+:::
+
+!!! warning attention "Note"
+    Note that WSO2 started issuing "Special Security Announcements" through WSO2 support portal from December 11, 2021 with the title starting with [^3], providing immediate risk mitigation steps based on Apache Log4j security documentation [^1] and consequent updates on the progress related to the CVE-2021-44228. In addition, WSO2 issued a public Incident Clarification for open source users [4] on December 13, 2021.
+
+This update cumulatively mitigates known vulnerabilities of Log4j 2 prior to 2.16.0 relevant to the following dependencies:
+
+* log4j-core upgraded to v2.16.0
+* log4j-api upgraded to v2.16.0
+* log4j-jcl upgraded to v2.16.0
+
+In addition, this update removes the vulnerable "JndiLookup'' class from the following dependencies as recommended in Apache Log4j security documentation [^1] . These dependencies will be further upgraded in a follow-up update.
+
+* pax-logging-log4j2
+* org.ops4j.pax.logging.pax-logging-log4j2
+* org.wso2.ei.analytics.elk
+* siddhi-store-elasticsearch
+
+### IMPACT
+By leveraging the vulnerability, a malicious actor may perform Remote Code Execution by providing a crafted payload.
+
+### SOLUTION
+
+We highly recommend migrating to the latest version of the respective WSO2 products to permanently mitigate the identified vulnerabilities. Alternatively, you can use the script provided in [Log4j2 zero-day incident justification page](../../incident-clarifications/2021/log4j2-zero-day-vulnerability_CVE-2021-44228_CVE-2021-45046_CVE-2021-45105.mdx) to temporarily address the identified vulnerability in your current deployment. Please note that this temporary fix is fully effective in resolving the identified vulnerability. 
+
+Furthermore, you can use the script below to determine whether your deployment has been compromised through the said vulnerability.
+
+Linux environments:
+
+```bash
+grep -R '${ctx:' . | grep 'log4j'
+```
+
+Windows environments (using Powershell):
+
+```powershell
+Get-ChildItem -recurse | Select-String -ErrorAction SilentlyContinue -pattern '\${ctx:' | group path | select name | Select-String 'log4j'
+```
+
+If no results were returned by the above command, your deployment is not compromised. However, if any matches were identified, remove references to Context Lookups as also recommended in the Log4j security page [^5], from the identified configuration file.
+
+!!! info todo
+    **If you are a WSO2 customer with a support subscription, use [WSO2 Updates](https://wso2.com/updates/) in order to apply the fix.**
+
+
+### REFERENCES
+[^1]: [https://logging.apache.org/log4j/2.x/security.html](https://logging.apache.org/log4j/2.x/security.html)
+[^2]: [https://nvd.nist.gov/vuln/detail/CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
+[^3]: [Special Security Announcement] Log4j2 zero-day vulnerability (CVE-2021-44228)
+[^4]: [Log4j2 zero-day vulnerability (CVE-2021-44228 / CVE-2021-45046 / CVE-2021-45105 )](https://docs.wso2.com/pages/viewpage.action?pageId=180948677)
+[^5]: [https://logging.apache.org/log4j/2.x/security.html#Fixed_in_Log4j_2.17.0_.28Java_8.29](https://logging.apache.org/log4j/2.x/security.html#Fixed_in_Log4j_2.17.0_.28Java_8.29)

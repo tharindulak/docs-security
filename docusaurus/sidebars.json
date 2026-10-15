@@ -1,0 +1,2513 @@
+{
+  "docs": [
+    {
+      "type": "doc",
+      "id": "index",
+      "label": "Home"
+    },
+    {
+      "type": "category",
+      "label": "Security Processes",
+      "items": [
+        {
+          "type": "doc",
+          "id": "security-processes/secure-software-development-process",
+          "label": "Secure Software Development Process"
+        },
+        {
+          "type": "doc",
+          "id": "security-processes/vulnerability-management-process",
+          "label": "Vulnerability Management Process"
+        },
+        {
+          "type": "doc",
+          "id": "security-processes/cloud-security-process",
+          "label": "Cloud Security Process"
+        },
+        {
+          "type": "doc",
+          "id": "security-processes/saas-incident-notification-process",
+          "label": "Security Incident Notification Process for SaaS"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Security Guidelines",
+      "items": [
+        {
+          "type": "category",
+          "label": "Secure Engineering Guidelines",
+          "items": [
+            {
+              "type": "category",
+              "label": "Secure Coding Guidelines",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/introduction",
+                  "label": "Introduction"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/secure-coding-guide",
+                  "label": "Secure Coding Guide"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/general-recommendations-for-react-secure-coding",
+                  "label": "React"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2025-prevention",
+                  "label": "OWASP Top 10 - 2025 Prevention"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-api-top10-2023-prevention",
+                  "label": "OWASP API Security Top 10 - 2023 Prevention"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/tooling-recommendations-for-secure-coding",
+                  "label": "Tooling Recommendations for Secure Coding"
+                }
+              ]
+            },
+            {
+              "type": "doc",
+              "id": "security-guidelines/secure-engineering-guidelines/security-related-http-headers",
+              "label": "Security Related HTTP Headers"
+            },
+            {
+              "type": "doc",
+              "id": "security-guidelines/secure-engineering-guidelines/owasp-csrf-guard",
+              "label": "OWASP CSRFGuard"
+            },
+            {
+              "type": "doc",
+              "id": "security-guidelines/secure-engineering-guidelines/static-code-analysis-using-findsecuritybugs",
+              "label": "Static Code Analysis using FindSecurityBugs"
+            },
+            {
+              "type": "doc",
+              "id": "security-guidelines/secure-engineering-guidelines/dynamic-analysis-with-owasp-zap",
+              "label": "Dynamic Analysis with OWASP ZAP"
+            },
+            {
+              "type": "doc",
+              "id": "security-guidelines/secure-engineering-guidelines/external-dependency-analysis-analysis-using-owasp-dependency-check",
+              "label": "External Dependency Analysis using OWASP Dependency Check"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "security-guidelines/security-guidelines-for-production-deployment",
+          "label": "Security Guidelines for Production Deployment"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Security Announcements",
+      "items": [
+        {
+          "type": "category",
+          "label": "WSO2 Security Advisories",
+          "items": [
+            {
+              "type": "category",
+              "label": "2026 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5854",
+                  "label": "WSO2-2026-5854"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5328",
+                  "label": "WSO2-2026-5328"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5236",
+                  "label": "WSO2-2026-5236"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5212",
+                  "label": "WSO2-2026-5212"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5174",
+                  "label": "WSO2-2026-5174"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5164",
+                  "label": "WSO2-2026-5164"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5146",
+                  "label": "WSO2-2026-5146"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5100",
+                  "label": "WSO2-2026-5100"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5077",
+                  "label": "WSO2-2026-5077"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5072",
+                  "label": "WSO2-2026-5072"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5059",
+                  "label": "WSO2-2026-5059"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5051",
+                  "label": "WSO2-2026-5051"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5039",
+                  "label": "WSO2-2026-5039"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5002",
+                  "label": "WSO2-2026-5002"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-5001",
+                  "label": "WSO2-2026-5001"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4973",
+                  "label": "WSO2-2025-4973"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4918",
+                  "label": "WSO2-2025-4918"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4897",
+                  "label": "WSO2-2025-4897"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4891",
+                  "label": "WSO2-2025-4891"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4849",
+                  "label": "WSO2-2025-4849"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-4844",
+                  "label": "WSO2-2026-4844"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4829",
+                  "label": "WSO2-2025-4829"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4800",
+                  "label": "WSO2-2025-4800"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4771",
+                  "label": "WSO2-2025-4771"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4751",
+                  "label": "WSO2-2025-4751"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4733",
+                  "label": "WSO2-2025-4733"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4731",
+                  "label": "WSO2-2025-4731"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4727",
+                  "label": "WSO2-2025-4727"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4684",
+                  "label": "WSO2-2025-4684"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4672",
+                  "label": "WSO2-2025-4672"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4619",
+                  "label": "WSO2-2025-4619"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2026-4608",
+                  "label": "WSO2-2026-4608"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4597",
+                  "label": "WSO2-2025-4597"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4583",
+                  "label": "WSO2-2025-4583"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4577",
+                  "label": "WSO2-2025-4577"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4530",
+                  "label": "WSO2-2025-4530"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4525",
+                  "label": "WSO2-2025-4525"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4517",
+                  "label": "WSO2-2025-4517"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4516",
+                  "label": "WSO2-2025-4516"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4500",
+                  "label": "WSO2-2025-4500"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4493",
+                  "label": "WSO2-2025-4493"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4480",
+                  "label": "WSO2-2025-4480"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4469",
+                  "label": "WSO2-2025-4469"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4438",
+                  "label": "WSO2-2025-4438"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4410",
+                  "label": "WSO2-2025-4410"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4405",
+                  "label": "WSO2-2025-4405"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4401",
+                  "label": "WSO2-2025-4401"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4388",
+                  "label": "WSO2-2025-4388"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4369",
+                  "label": "WSO2-2025-4369"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4353",
+                  "label": "WSO2-2025-4353"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4343",
+                  "label": "WSO2-2025-4343"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4337",
+                  "label": "WSO2-2025-4337"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4316",
+                  "label": "WSO2-2025-4316"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4306",
+                  "label": "WSO2-2025-4306"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4251",
+                  "label": "WSO2-2025-4251"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4227",
+                  "label": "WSO2-2025-4227"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4195",
+                  "label": "WSO2-2025-4195"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4193",
+                  "label": "WSO2-2025-4193"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4177",
+                  "label": "WSO2-2025-4177"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4138",
+                  "label": "WSO2-2025-4138"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-4013",
+                  "label": "WSO2-2025-4013"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2025-1613",
+                  "label": "WSO2-2025-1613"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3741",
+                  "label": "WSO2-2024-3741"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3740",
+                  "label": "WSO2-2024-3740"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3581",
+                  "label": "WSO2-2024-3581"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3520",
+                  "label": "WSO2-2024-3520"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3477",
+                  "label": "WSO2-2024-3477"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3391",
+                  "label": "WSO2-2024-3391"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3359",
+                  "label": "WSO2-2024-3359"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3352",
+                  "label": "WSO2-2024-3352"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3281",
+                  "label": "WSO2-2024-3281"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3255",
+                  "label": "WSO2-2024-3255"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3179",
+                  "label": "WSO2-2024-3179"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-3115",
+                  "label": "WSO2-2024-3115"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2024-2753",
+                  "label": "WSO2-2024-2753"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2023-3081",
+                  "label": "WSO2-2023-3081"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2023-2729",
+                  "label": "WSO2-2023-2729"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2023-2672",
+                  "label": "WSO2-2023-2672"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2023-2606",
+                  "label": "WSO2-2023-2606"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2022-2281",
+                  "label": "WSO2-2022-2281"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2021-1582",
+                  "label": "WSO2-2021-1582"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2026/WSO2-2021-1493",
+                  "label": "WSO2-2021-1493"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2025 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4603",
+                  "label": "WSO2-2025-4603"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4585",
+                  "label": "WSO2-2025-4585"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4526",
+                  "label": "WSO2-2025-4526"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4510",
+                  "label": "WSO2-2025-4510"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4505",
+                  "label": "WSO2-2025-4505"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4503",
+                  "label": "WSO2-2025-4503"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4494",
+                  "label": "WSO2-2025-4494"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4486",
+                  "label": "WSO2-2025-4486"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4483",
+                  "label": "WSO2-2025-4483"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4270",
+                  "label": "WSO2-2025-4270"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4217",
+                  "label": "WSO2-2025-4217"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4124",
+                  "label": "WSO2-2025-4124"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4119",
+                  "label": "WSO2-2025-4119"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4117",
+                  "label": "WSO2-2025-4117"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4115",
+                  "label": "WSO2-2025-4115"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4104",
+                  "label": "WSO2-2025-4104"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-4010",
+                  "label": "WSO2-2025-4010"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3993",
+                  "label": "WSO2-2025-3993"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3992",
+                  "label": "WSO2-2025-3992"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3983",
+                  "label": "WSO2-2025-3983"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3961",
+                  "label": "WSO2-2025-3961"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3902",
+                  "label": "WSO2-2025-3902"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3864",
+                  "label": "WSO2-2025-3864"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3857",
+                  "label": "WSO2-2025-3857"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3302",
+                  "label": "WSO2-2025-3302"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2025-3134",
+                  "label": "WSO2-2025-3134"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3805",
+                  "label": "WSO2-2024-3805"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3696",
+                  "label": "WSO2-2024-3696"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3676",
+                  "label": "WSO2-2024-3676"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3606",
+                  "label": "WSO2-2024-3606"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3586",
+                  "label": "WSO2-2024-3586"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3569",
+                  "label": "WSO2-2024-3569"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3490",
+                  "label": "WSO2-2024-3490"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3472",
+                  "label": "WSO2-2024-3472"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3465",
+                  "label": "WSO2-2024-3465"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3461",
+                  "label": "WSO2-2024-3461"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3436",
+                  "label": "WSO2-2024-3436"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3414",
+                  "label": "WSO2-2024-3414"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3403",
+                  "label": "WSO2-2024-3403"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3382",
+                  "label": "WSO2-2024-3382"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3355",
+                  "label": "WSO2-2024-3355"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3254",
+                  "label": "WSO2-2024-3254"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3217",
+                  "label": "WSO2-2024-3217"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3178",
+                  "label": "WSO2-2024-3178"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3149",
+                  "label": "WSO2-2024-3149"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-3144",
+                  "label": "WSO2-2024-3144"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2024-2702",
+                  "label": "WSO2-2024-2702"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2023-3098",
+                  "label": "WSO2-2023-3098"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2023-3084",
+                  "label": "WSO2-2023-3084"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2023-3052",
+                  "label": "WSO2-2023-3052"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2023-2850",
+                  "label": "WSO2-2023-2850"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2023-2678",
+                  "label": "WSO2-2023-2678"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2025/WSO2-2022-1770",
+                  "label": "WSO2-2022-1770"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2024 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3574",
+                  "label": "WSO2-2024-3574"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3573",
+                  "label": "WSO2-2024-3573"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3566",
+                  "label": "WSO2-2024-3566"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3562",
+                  "label": "WSO2-2024-3562"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3561",
+                  "label": "WSO2-2024-3561"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3450",
+                  "label": "WSO2-2024-3450"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3443",
+                  "label": "WSO2-2024-3443"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3425",
+                  "label": "WSO2-2024-3425"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3348",
+                  "label": "WSO2-2024-3348"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3213",
+                  "label": "WSO2-2024-3213"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-3171",
+                  "label": "WSO2-2024-3171"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2024-2701",
+                  "label": "WSO2-2024-2701"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2988",
+                  "label": "WSO2-2023-2988"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2987",
+                  "label": "WSO2-2023-2987"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2972",
+                  "label": "WSO2-2023-2972"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2938",
+                  "label": "WSO2-2023-2938"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2935",
+                  "label": "WSO2-2023-2935"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2864",
+                  "label": "WSO2-2023-2864"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2831",
+                  "label": "WSO2-2023-2831"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2827",
+                  "label": "WSO2-2023-2827"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2808",
+                  "label": "WSO2-2023-2808"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2803",
+                  "label": "WSO2-2023-2803"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2784",
+                  "label": "WSO2-2023-2784"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2626",
+                  "label": "WSO2-2023-2626"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2617",
+                  "label": "WSO2-2023-2617"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2589",
+                  "label": "WSO2-2023-2589"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2577",
+                  "label": "WSO2-2023-2577"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2308",
+                  "label": "WSO2-2023-2308"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2023-2075",
+                  "label": "WSO2-2023-2075"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2353",
+                  "label": "WSO2-2022-2353"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2254",
+                  "label": "WSO2-2022-2254"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2208",
+                  "label": "WSO2-2022-2208"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2203",
+                  "label": "WSO2-2022-2203"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2165",
+                  "label": "WSO2-2022-2165"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-2049",
+                  "label": "WSO2-2022-2049"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-1988",
+                  "label": "WSO2-2022-1988"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-1920",
+                  "label": "WSO2-2022-1920"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2024/WSO2-2022-1754",
+                  "label": "WSO2-2022-1754"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2023 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2023-2735",
+                  "label": "WSO2-2023-2735"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2023-2617",
+                  "label": "WSO2-2023-2617"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2023-2447",
+                  "label": "WSO2-2023-2447"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2023-2075",
+                  "label": "WSO2-2023-2075"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2357",
+                  "label": "WSO2-2022-2357"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2182",
+                  "label": "WSO2-2022-2182"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2177",
+                  "label": "WSO2-2022-2177"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2101",
+                  "label": "WSO2-2022-2101"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2055",
+                  "label": "WSO2-2022-2055"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2062",
+                  "label": "WSO2-2022-2062"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2043",
+                  "label": "WSO2-2022-2043"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2023",
+                  "label": "WSO2-2022-2023"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-2019",
+                  "label": "WSO2-2022-2019"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-1910",
+                  "label": "WSO2-2022-1910"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2022-1821",
+                  "label": "WSO2-2022-1821"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2023/WSO2-2021-1318",
+                  "label": "WSO2-2021-1318"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2022 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2022-1923",
+                  "label": "WSO2-2022-1923"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2022-1849",
+                  "label": "WSO2-2022-1849"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2022-1745",
+                  "label": "WSO2-2022-1745"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2022-1698",
+                  "label": "WSO2-2022-1698"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2022-1476",
+                  "label": "WSO2-2022-1476"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1738",
+                  "label": "WSO2-2021-1738"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1720",
+                  "label": "WSO2-2021-1720"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1646",
+                  "label": "WSO2-2021-1646"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1605",
+                  "label": "WSO2-2021-1605"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1603",
+                  "label": "WSO2-2021-1603"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1592",
+                  "label": "WSO2-2021-1592"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1574",
+                  "label": "WSO2-2021-1574"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1573",
+                  "label": "WSO2-2021-1573"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1531",
+                  "label": "WSO2-2021-1531"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1530",
+                  "label": "WSO2-2021-1530"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1524",
+                  "label": "WSO2-2021-1524"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1509",
+                  "label": "WSO2-2021-1509"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1487",
+                  "label": "WSO2-2021-1487"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1482",
+                  "label": "WSO2-2021-1482"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1480",
+                  "label": "WSO2-2021-1480"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1459",
+                  "label": "WSO2-2021-1459"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1438",
+                  "label": "WSO2-2021-1438"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1334",
+                  "label": "WSO2-2021-1334"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2022/WSO2-2021-1259",
+                  "label": "WSO2-2021-1259"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2021 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1699",
+                  "label": "WSO2-2021-1699"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1497",
+                  "label": "WSO2-2021-1497"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1453",
+                  "label": "WSO2-2021-1453"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1411",
+                  "label": "WSO2-2021-1411"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1357",
+                  "label": "WSO2-2021-1357"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1351",
+                  "label": "WSO2-2021-1351"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1350",
+                  "label": "WSO2-2021-1350"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1347",
+                  "label": "WSO2-2021-1347"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1338",
+                  "label": "WSO2-2021-1338"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1315",
+                  "label": "WSO2-2021-1315"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1314",
+                  "label": "WSO2-2021-1314"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1292",
+                  "label": "WSO2-2021-1292"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1289",
+                  "label": "WSO2-2021-1289"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1261",
+                  "label": "WSO2-2021-1261"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1260",
+                  "label": "WSO2-2021-1260"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1258",
+                  "label": "WSO2-2021-1258"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2021-1238",
+                  "label": "WSO2-2021-1238"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1233",
+                  "label": "WSO2-2020-1233"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1225",
+                  "label": "WSO2-2020-1225"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1224",
+                  "label": "WSO2-2020-1224"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1196",
+                  "label": "WSO2-2020-1196"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1139",
+                  "label": "WSO2-2020-1139"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1132",
+                  "label": "WSO2-2020-1132"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1130",
+                  "label": "WSO2-2020-1130"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1119",
+                  "label": "WSO2-2020-1119"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-1106",
+                  "label": "WSO2-2020-1106"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0873",
+                  "label": "WSO2-2020-0873"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0840",
+                  "label": "WSO2-2020-0840"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0803",
+                  "label": "WSO2-2020-0803"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0787",
+                  "label": "WSO2-2020-0787"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0752",
+                  "label": "WSO2-2020-0752"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0751",
+                  "label": "WSO2-2020-0751"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2021/WSO2-2020-0716",
+                  "label": "WSO2-2020-0716"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2020 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0864",
+                  "label": "WSO2-2020-0864"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0843",
+                  "label": "WSO2-2020-0843"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0781",
+                  "label": "WSO2-2020-0781"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0755",
+                  "label": "WSO2-2020-0755"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0747",
+                  "label": "WSO2-2020-0747"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0742",
+                  "label": "WSO2-2020-0742"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0734",
+                  "label": "WSO2-2020-0734"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0731",
+                  "label": "WSO2-2020-0731"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0730",
+                  "label": "WSO2-2020-0730"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0728",
+                  "label": "WSO2-2020-0728"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0727",
+                  "label": "WSO2-2020-0727"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0722",
+                  "label": "WSO2-2020-0722"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0718",
+                  "label": "WSO2-2020-0718"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0713",
+                  "label": "WSO2-2020-0713"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0711",
+                  "label": "WSO2-2020-0711"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0707",
+                  "label": "WSO2-2020-0707"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0706",
+                  "label": "WSO2-2020-0706"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0705",
+                  "label": "WSO2-2020-0705"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0702",
+                  "label": "WSO2-2020-0702"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0701",
+                  "label": "WSO2-2020-0701"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0700",
+                  "label": "WSO2-2020-0700"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0699",
+                  "label": "WSO2-2020-0699"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0698",
+                  "label": "WSO2-2020-0698"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0693",
+                  "label": "WSO2-2020-0693"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0690",
+                  "label": "WSO2-2020-0690"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0689",
+                  "label": "WSO2-2020-0689"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0688",
+                  "label": "WSO2-2020-0688"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0687",
+                  "label": "WSO2-2020-0687"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0685",
+                  "label": "WSO2-2020-0685"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2020-0684",
+                  "label": "WSO2-2020-0684"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0681",
+                  "label": "WSO2-2019-0681"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0673",
+                  "label": "WSO2-2019-0673"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0670",
+                  "label": "WSO2-2019-0670"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0667",
+                  "label": "WSO2-2019-0667"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0666",
+                  "label": "WSO2-2019-0666"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0665",
+                  "label": "WSO2-2019-0665"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0663",
+                  "label": "WSO2-2019-0663"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0651",
+                  "label": "WSO2-2019-0651"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2019-0661",
+                  "label": "WSO2-2019-0661"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2020/WSO2-2018-0537",
+                  "label": "WSO2-2018-0537"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2019 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0658",
+                  "label": "WSO2-2019-0658"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0656",
+                  "label": "WSO2-2019-0656"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0655",
+                  "label": "WSO2-2019-0655"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0653",
+                  "label": "WSO2-2019-0653"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0647",
+                  "label": "WSO2-2019-0647"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0646",
+                  "label": "WSO2-2019-0646"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0645",
+                  "label": "WSO2-2019-0645"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0644",
+                  "label": "WSO2-2019-0644"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0636",
+                  "label": "WSO2-2019-0636"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0635",
+                  "label": "WSO2-2019-0635"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0634",
+                  "label": "WSO2-2019-0634"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0633",
+                  "label": "WSO2-2019-0633"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0625",
+                  "label": "WSO2-2019-0625"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0624",
+                  "label": "WSO2-2019-0624"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0621",
+                  "label": "WSO2-2019-0621"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0618",
+                  "label": "WSO2-2019-0618"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0616",
+                  "label": "WSO2-2019-0616"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0600",
+                  "label": "WSO2-2019-0600"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0598",
+                  "label": "WSO2-2019-0598"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0597",
+                  "label": "WSO2-2019-0597"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0571",
+                  "label": "WSO2-2019-0571"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0554",
+                  "label": "WSO2-2019-0554"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0545",
+                  "label": "WSO2-2019-0545"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0504",
+                  "label": "WSO2-2019-0504"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0501",
+                  "label": "WSO2-2019-0501"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0486",
+                  "label": "WSO2-2019-0486"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2019/WSO2-2019-0432",
+                  "label": "WSO2-2019-0432"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2018 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2018/WSO2-2018-0462",
+                  "label": "WSO2-2018-0462"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2017 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0326",
+                  "label": "WSO2-2017-0326"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0289",
+                  "label": "WSO2-2017-0289"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0267",
+                  "label": "WSO2-2017-0267"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0266",
+                  "label": "WSO2-2017-0266"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0265",
+                  "label": "WSO2-2017-0265"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0263",
+                  "label": "WSO2-2017-0263"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0262",
+                  "label": "WSO2-2017-0262"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0261",
+                  "label": "WSO2-2017-0261"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0260",
+                  "label": "WSO2-2017-0260"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0257",
+                  "label": "WSO2-2017-0257"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0255",
+                  "label": "WSO2-2017-0255"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0254",
+                  "label": "WSO2-2017-0254"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0235",
+                  "label": "WSO2-2017-0235"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0223",
+                  "label": "WSO2-2017-0223"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0218",
+                  "label": "WSO2-2017-0218"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0212",
+                  "label": "WSO2-2017-0212"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0210",
+                  "label": "WSO2-2017-0210"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0203",
+                  "label": "WSO2-2017-0203"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0198",
+                  "label": "WSO2-2017-0198"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0197",
+                  "label": "WSO2-2017-0197"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0190",
+                  "label": "WSO2-2017-0190"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0188",
+                  "label": "WSO2-2017-0188"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0187",
+                  "label": "WSO2-2017-0187"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0186",
+                  "label": "WSO2-2017-0186"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0185",
+                  "label": "WSO2-2017-0185"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0184",
+                  "label": "WSO2-2017-0184"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0183",
+                  "label": "WSO2-2017-0183"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0182",
+                  "label": "WSO2-2017-0182"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0179",
+                  "label": "WSO2-2017-0179"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2017/WSO2-2017-0177",
+                  "label": "WSO2-2017-0177"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2016 Advisories",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0170",
+                  "label": "WSO2-2016-0170"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0169",
+                  "label": "WSO2-2016-0169"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0168",
+                  "label": "WSO2-2016-0168"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0159",
+                  "label": "WSO2-2016-0159"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0158",
+                  "label": "WSO2-2016-0158"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0156",
+                  "label": "WSO2-2016-0156"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0151",
+                  "label": "WSO2-2016-0151"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0150",
+                  "label": "WSO2-2016-0150"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0141",
+                  "label": "WSO2-2016-0141"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0140",
+                  "label": "WSO2-2016-0140"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0138",
+                  "label": "WSO2-2016-0138"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0135",
+                  "label": "WSO2-2016-0135"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0127",
+                  "label": "WSO2-2016-0127"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0104",
+                  "label": "WSO2-2016-0104"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0101",
+                  "label": "WSO2-2016-0101"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0098",
+                  "label": "WSO2-2016-0098"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0096",
+                  "label": "WSO2-2016-0096"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0095",
+                  "label": "WSO2-2016-0095"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/security-advisories/2016/WSO2-2016-0092",
+                  "label": "WSO2-2016-0092"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Cloud Security Bulletin",
+          "items": [
+            {
+              "type": "category",
+              "label": "WSO2 Identity Platform",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "2025",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "security-announcements/cloud-security-bulletins/wso2-identity-platform/2025/wso2-identity-platform-2025-h1",
+                      "label": "2025 H1"
+                    },
+                    {
+                      "type": "doc",
+                      "id": "security-announcements/cloud-security-bulletins/wso2-identity-platform/2025/wso2-identity-platform-2025-h2",
+                      "label": "2025 H2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Choreo",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "2025",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "security-announcements/cloud-security-bulletins/choreo/2025/choreo-2025-h1",
+                      "label": "2025 H1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "WSO2 API Platform",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "2025",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "security-announcements/cloud-security-bulletins/wso2-api-platform/2025/wso2-api-platform-2025-h2",
+                      "label": "2025 H2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "CVE Justifications",
+          "items": [
+            {
+              "type": "category",
+              "label": "2026",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2026-44825",
+                  "label": "CVE-2026-44825"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2026-41851",
+                  "label": "CVE-2026-41851"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2026-41848",
+                  "label": "CVE-2026-41848"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/GHSA-72hv-8253-57qq",
+                  "label": "GHSA-72hv-8253-57qq"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2026-49875",
+                  "label": "CVE-2026-49875"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2026-2332",
+                  "label": "CVE-2026-2332"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2025-11143",
+                  "label": "CVE-2025-11143"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2024-38820",
+                  "label": "CVE-2024-38820"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2023-49735",
+                  "label": "CVE-2023-49735"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2023-39017",
+                  "label": "CVE-2023-39017"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2021-28490",
+                  "label": "CVE-2021-28490"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2020-11023",
+                  "label": "CVE-2020-11023"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2020-11022",
+                  "label": "CVE-2020-11022"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2020-7656",
+                  "label": "CVE-2020-7656"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2019-11358",
+                  "label": "CVE-2019-11358"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2015-9251",
+                  "label": "CVE-2015-9251"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2012-6708",
+                  "label": "CVE-2012-6708"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/CVE-2012-5783",
+                  "label": "CVE-2012-5783"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2026/bluebird-memory-leak-vulnerability-npm",
+                  "label": "Bluebird Memory Leak Vulnerability (NPM)"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2025",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-66516",
+                  "label": "CVE-2025-66516"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-59340",
+                  "label": "CVE-2025-59340"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-48913",
+                  "label": "CVE-2025-48913"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-47889",
+                  "label": "CVE-2025-47889"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-46392",
+                  "label": "CVE-2025-46392"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-48924",
+                  "label": "CVE-2025-48924"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-22874",
+                  "label": "CVE-2025-22874"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2024-6763",
+                  "label": "CVE-2024-6763"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2023-52428",
+                  "label": "CVE-2023-52428"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2022-36313",
+                  "label": "CVE-2022-36313"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2021-42646",
+                  "label": "CVE-2021-42646"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2017-15708",
+                  "label": "CVE-2017-15708"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2016-1000027",
+                  "label": "CVE-2016-1000027"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/GHSA-593m-55hh-j8gv",
+                  "label": "GHSA-593m-55hh-j8gv"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2013-6780",
+                  "label": "CVE-2013-6780"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2012-5881",
+                  "label": "CVE-2012-5881"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2012-5882",
+                  "label": "CVE-2012-5882"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2012-5883",
+                  "label": "CVE-2012-5883"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2025/CVE-2025-41249",
+                  "label": "CVE-2025-41249"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2024",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2024/CVE-2022-45868",
+                  "label": "CVE-2022-45868"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2024/CVE-2022-29464",
+                  "label": "CVE-2022-29464"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2024/CVE-2022-23221",
+                  "label": "CVE-2022-23221"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2024/CVE-2021-23463",
+                  "label": "CVE-2021-23463"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2022",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2022/CVE-2022-42889",
+                  "label": "CVE-2022-42889"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2022/CVE-2022-3602 and CVE-2022-3786",
+                  "label": "CVE-2022-3602 and CVE-2022-3786"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2022/CVE-2022-22965",
+                  "label": "CVE-2022-22965"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2022/CVE-2021-42392",
+                  "label": "CVE-2021-42392"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2022/log4j v1 vulnerabilities (CVE-2022-23302 CVE-2022-23305 CVE-2022-23307)",
+                  "label": "log4j v1 vulnerabilities (CVE-2022-23302 CVE-2022-23305 CVE-2022-23307)"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2021",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2021/ZDI-CAN-13449",
+                  "label": "ZDI-CAN-13449"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2020",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2020/CVE-2020-1938",
+                  "label": "CVE-2020-1938"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2020/CVE-2020-13226",
+                  "label": "CVE-2020-13226"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2020/CVE-2019-6513",
+                  "label": "CVE-2019-6513"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2020/CVE-2019-17571",
+                  "label": "CVE-2019-17571"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2019",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2019/CVE-2019-6515",
+                  "label": "CVE-2019-6515"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2019/CVE-2019-6512",
+                  "label": "CVE-2019-6512"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2014",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/cve-justifications/2014/CVE-2014-3623",
+                  "label": "CVE-2014-3623"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Incident Clarifications",
+          "items": [
+            {
+              "type": "category",
+              "label": "2026",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2026/axios-npm-supply-chain-compromise",
+                  "label": "Axios NPM Supply Chain Compromise"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2026/unauthorized-access-to-githubs-internal-repositories",
+                  "label": "Unauthorized access to GitHub's internal repositories"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2025",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2025/npm-packages-compromised-in-supply-chain-attack",
+                  "label": "NPM Packages Compromised in Supply Chain Attack"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2025/npm-supply-chain-attack-shai-hulud-2.0",
+                  "label": "NPM Supply Chain Attack - Shai-Hulud 2.0"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2021",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2021/codecov-supply-chain-breach",
+                  "label": "Codecov supply chain breach"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2021/npm-packages-coa-and-rc-compromised",
+                  "label": "NPM packages coa and rc Compromised"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2021/npm-package-ua-parser-js-compromised",
+                  "label": "NPM package UA-Parser-JS Compromised"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2021/log4j2-zero-day-vulnerability_CVE-2021-44228_CVE-2021-45046_CVE-2021-45105",
+                  "label": "Log4j2 zero-day vulnerability (CVE-2021-44228 / CVE-2021-45046 / CVE-2021-45105)"
+                },
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2021/CVE-2021-4104",
+                  "label": "CVE-2021-4104"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "2020",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "security-announcements/incident-clarifications/2020/solarwinds-sunburst-breach",
+                  "label": "SolarWinds SUNBURST breach"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Security Reporting",
+      "items": [
+        {
+          "type": "doc",
+          "id": "security-reporting/report-security-issues",
+          "label": "Report Security Issues"
+        },
+        {
+          "type": "doc",
+          "id": "security-reporting/vulnerability-reporting-guidelines",
+          "label": "Vulnerability Reporting Guidelines"
+        },
+        {
+          "type": "category",
+          "label": "Reward and Acknowledgement Program",
+          "link": {
+            "type": "doc",
+            "id": "security-reporting/reward-and-acknowledgement-program/index"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "security-reporting/reward-and-acknowledgement-program/hall-of-fame",
+              "label": "Security Hall of Fame"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "security-reporting/abuse-report",
+          "label": "Reporting Service Abuse or Malicious Content"
+        }
+      ]
+    }
+  ]
+}

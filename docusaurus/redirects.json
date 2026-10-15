@@ -1,0 +1,21 @@
+{
+  "current": {
+    "public-artifacts/index.md": "index.md",
+    "security-announcements/cloud-security-bulletins/asgardeo/2025/asgardeo-2025-h1.md": "security-announcements/cloud-security-bulletins/wso2-identity-platform/2025/wso2-identity-platform-2025-h1.md",
+    "security-announcements/cloud-security-bulletins/asgardeo/2025/asgardeo-2025-h2.md": "security-announcements/cloud-security-bulletins/wso2-identity-platform/2025/wso2-identity-platform-2025-h2.md",
+    "security-announcements/cloud-security-bulletins/asgardeo/2025/index.md": "security-announcements/cloud-security-bulletins/wso2-identity-platform/2025/index.md",
+    "security-announcements/cloud-security-bulletins/asgardeo/index.md": "security-announcements/cloud-security-bulletins/wso2-identity-platform/index.md",
+    "security-announcements/cve-justifications/2025/CVE-2010-4208.md": "security-announcements/cve-justifications/2025/CVE-2013-6780.md",
+    "security-announcements/index.md": "index.md",
+    "security-announcements/security-advisories/2024/CVE-2024-0392.md": "security-announcements/security-advisories/2024/WSO2-2023-2987.md",
+    "security-guidelines/index.md": "index.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/general-recommendations-for-secure-coding.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/secure-coding-guide.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/go-stack.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/secure-coding-guide.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/java-stack.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/secure-coding-guide.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-mobile-t10-prevention.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2025-prevention.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2013-prevention.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2025-prevention.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2017-prevention.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/owasp-t10-2025-prevention.md",
+    "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/principles.md": "security-guidelines/secure-engineering-guidelines/secure-coding-guidlines/secure-coding-guide.md",
+    "security-processes/index.md": "index.md"
+  }
+}

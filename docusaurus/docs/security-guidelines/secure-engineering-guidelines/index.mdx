@@ -1,0 +1,28 @@
+---
+title: Secure Engineering Guidelines
+deployment_options:
+  - WSO2 Cloud
+  - Self-hosted
+custom_edit_url: https://github.com/wso2/docs-security/edit/main/en/docs/security-guidelines/secure-engineering-guidelines/index.md
+---
+
+# Secure Engineering Guidelines
+
+This section is the entry point to the secure engineering practices WSO2 engineers apply when building WSO2 products. It covers the canonical secure-coding guide, configuration references for the headers and tools that enforce the security posture in production, and the analysis tools that run in CI.
+
+## Secure coding
+
+* [WSO2 Secure Coding Guidelines](secure-coding-guidlines/introduction.mdx): the entry page for the secure coding guides.
+* [Secure Coding Guide](secure-coding-guidlines/secure-coding-guide.mdx): the canonical guide, organized by OWASP Top 10 - 2025 categories with stack-specific implementation in content tabs.
+* [React Secure Coding Guide](secure-coding-guidlines/general-recommendations-for-react-secure-coding.mdx) covers frontend-specific guidance.
+
+## Configuration references
+
+* [HTTP Security Headers, Configuration Reference](security-related-http-headers.mdx): a practical "how to apply" companion covering Carbon/Tomcat, Go middleware, reverse proxy, Kubernetes ingress, and WSO2 API Gateway.
+* [OWASP CSRFGuard](owasp-csrf-guard.mdx): CSRF token validation configuration for Carbon Java applications.
+
+## Analysis tools
+
+* [Static Code Analysis](static-code-analysis-using-findsecuritybugs.mdx): SAST tooling for Java (SpotBugs + Find Security Bugs) and Go (`gosec`, `staticcheck`), plus Semgrep / CodeQL for codebase-specific rules.
+* [Dynamic Analysis with OWASP ZAP](dynamic-analysis-with-owasp-zap.mdx) covers running ZAP against deployed WSO2 products.
+* [Dependency Vulnerability Analysis](external-dependency-analysis-analysis-using-owasp-dependency-check.mdx): Dependency Check for Java, `govulncheck` for Go, and `npm audit` for JavaScript.

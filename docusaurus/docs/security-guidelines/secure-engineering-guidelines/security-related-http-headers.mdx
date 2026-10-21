@@ -56,8 +56,8 @@ Deprecated, ignored, or actively harmful. If you find existing code emitting one
 
 **HSTS**: also wired through `HttpHeaderSecurityFilter`, but **ship it off by default**. HSTS pins HTTPS in the browser cache for `max-age` seconds and is irreversible during that window; enabling it on a developer's local instance with a self-signed cert breaks the browser until cache expiry, and submitting `preload` is impossible to undo. Make sure HSTS can be turned on per deployment and document the operator action. There are two equivalent ways:
 
-* Product-wide via `deployment.toml`: [APIM, Enable HSTS Headers](/api-platform/api-manager/install-and-setup/setup/deployment-best-practices/security-guidelines-for-production-deployment/#enable-http-strict-transport-security-hsts-headers).
-* Per-webapp via `web.xml` at `<PRODUCT_HOME>/repository/deployment/server/webapps/<WEBAPP>/WEB-INF/web.xml`: [IS, Enable HSTS Headers](/identity/deploy/security/enable-hsts/).
+* Product-wide via `deployment.toml`: [APIM, Enable HSTS Headers](https://apim.docs.wso2.com/en/latest/install-and-setup/setup/deployment-best-practices/security-guidelines-for-production-deployment/#enable-http-strict-transport-security-hsts-headers).
+* Per-webapp via `web.xml` at `<PRODUCT_HOME>/repository/deployment/server/webapps/<WEBAPP>/WEB-INF/web.xml`: [IS, Enable HSTS Headers](https://is.docs.wso2.com/en/latest/deploy/security/enable-hsts/).
 
 **CSP, COOP, COEP, CORP, `Permissions-Policy`, `Cache-Control` on token / PII responses, `Clear-Site-Data` on logout**: not covered by `HttpHeaderSecurityFilter`. When you add a new Carbon webapp, ship a project-local servlet filter that runs after `HttpHeaderSecurityFilter` so the built-in filter's `X-Frame-Options` is preserved alongside.
 
@@ -100,9 +100,9 @@ For **customer-themable surfaces** (IS authentication endpoints / login pages, I
 
 **CSP nonce migration shape.** New admin UIs ship the strict nonce-based policy from day one: the bundler must emit no inline scripts and no inline event handlers. The legacy `/carbon/*` admin console still uses `unsafe-inline` in places that have not been migrated; when wiring CSP into a product that includes the legacy console, scope the strict policy to your new paths and apply a per-URL relaxed override to `/carbon/*` as a tracked hardening item until the legacy pages are migrated. Don't relax CSP globally to accommodate legacy.
 
-**Preventing browser caching of dynamic pages.** Carbon ships `URLBasedCachePreventionFilter` and `ContentTypeBasedCachePreventionFilter` in `org.wso2.carbon.ui.filters.cache`. Wire them into your webapp's `web.xml` when adding any dynamic page that carries sensitive content. Reference: [IS, Prevent Browser Caching](/identity/deploy/security/prevent-browser-caching/).
+**Preventing browser caching of dynamic pages.** Carbon ships `URLBasedCachePreventionFilter` and `ContentTypeBasedCachePreventionFilter` in `org.wso2.carbon.ui.filters.cache`. Wire them into your webapp's `web.xml` when adding any dynamic page that carries sensitive content. Reference: [IS, Prevent Browser Caching](https://is.docs.wso2.com/en/latest/deploy/security/prevent-browser-caching/).
 
-**Server header.** Override via `[transport.https.properties]` in `deployment.toml` so the response doesn't return `Server: WSO2 Carbon Server`. Reference: [IS, Configure Transport-Level Security](/identity/deploy/security/configure-transport-level-security/).
+**Server header.** Override via `[transport.https.properties]` in `deployment.toml` so the response doesn't return `Server: WSO2 Carbon Server`. Reference: [IS, Configure Transport-Level Security](https://is.docs.wso2.com/en/latest/deploy/security/configure-transport-level-security/).
 
 **Jaggery.** Jaggery is deprecated. New WSO2 features should not ship Jaggery applications; existing Jaggery surfaces should be migrated.
 

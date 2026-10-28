@@ -8,7 +8,7 @@ model: unversioned
 home: other
 owners:
   team: platform-security-docs
-repo: wso2/docs-security
+repo: tharindulak/docs-security
 editLinks: false
 issues:
   repo: wso2/docs-security

@@ -1,0 +1,39 @@
+---
+title: Security Advisory WSO2-2023-2447
+description: 'Published: May 11, 2023'  # generated from the first paragraph; a writer should improve it
+type: reference
+sidebar_label: WSO2-2023-2447
+sidebar_position: 4
+---
+
+Published: May 11, 2023
+
+Version: 1.0.0
+
+Severity: Medium
+
+CVSS Score: 6.1 (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N)
+
+---
+
+### AFFECTED PRODUCTS
+* WSO2 Identity Server : 5.10.0
+
+### OVERVIEW
+A reflected cross-site scripting vulnerability has been identified in the self-registration feature.
+
+### DESCRIPTION
+Due to improper output encoding, a Reflected Cross-Site Scripting (XSS) attack can be carried out by injecting a malicious payload into the self-registration page.
+
+### IMPACT
+By leveraging the XSS attack, a malicious actor can make the browser get redirected to a malicious website, make changes in the UI of the web page, retrieve information from the browser or harm otherwise. However, since all the session related sensitive cookies are set with httpOnly flag and protected, session hijacking or similar attacks would not be possible.
+
+### SOLUTION
+We highly recommend to migrate the latest version of WSO2 Identity Server to mitigate the identified vulnerabilities.
+
+:::info
+**If you are a WSO2 customer with Support Subscription, please use [WSO2 Updates](https://wso2.com/updates/) in order to apply the fix.**
+:::
+
+### CREDITS
+WSO2 thanks, [Tom O’Neill](https://www.linkedin.com/in/the-tom-oneill) for responsibly reporting the identified issue and working with us as we addressed it.

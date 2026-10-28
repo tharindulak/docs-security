@@ -1,0 +1,40 @@
+---
+title: Security Advisory WSO2-2020-0730
+description: 'Published: September 8, 2020'  # generated from the first paragraph; a writer should improve it
+type: reference
+sidebar_label: WSO2-2020-0730
+sidebar_position: 10
+---
+
+Published: September 8, 2020
+
+Version: 1.0.0
+
+Severity: Medium
+
+CVSS Score: 4.2 (CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N)
+
+---
+
+### AFFECTED PRODUCTS
+* WSO2 Enterprise Integrator : 6.6.0 or earlier
+
+### OVERVIEW
+A potential Cross-Site Request Forgery vulnerability has been identified in the Management Console.
+
+### DESCRIPTION
+Adding a Message Store, loadBalanceEndpoint, templateEndpoint and recipientlistEndpoint by entering required details in the Management console is found to be vulnerable to a potential Cross-Site Request attacks.
+
+### IMPACT
+By leveraging the CSRF vulnerability, an attacker may steal or manipulate customer session and cookies, which might be used to impersonate a legitimate user. It leads to allow the attacker to perform changes as a legitimate user.
+
+### SOLUTION
+If you are using an affected product version, it is highly recommended to migrate to the latest released version to receive security fixes.
+
+Otherwise, you may apply the relevant fixes to the product based on the public fix(s):
+
+* [https://github.com/wso2/carbon-mediation/pull/1389](https://github.com/wso2/carbon-mediation/pull/1389)
+
+:::info
+**If you are a WSO2 customer with a support subscription, use [WSO2 Update Manager](https://wso2.com/updates/wum)(WUM) updates in order to apply the fix to the affected versions.**
+:::

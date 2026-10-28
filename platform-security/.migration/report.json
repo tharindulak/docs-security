@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "source": "wso2/docs-security@fc887c138fd524fc29c308a2214d5eac819d8306",
+    "edition": "_",
+    "legacyBase": "https://security.docs.wso2.com/en/latest/",
+    "navPages": 496,
+    "sourceFiles": 498,
+    "stats": {
+      "pages": 497,
+      "partials": 0,
+      "apiPages": 0,
+      "placeholders": 15,
+      "images": 4,
+      "attachments": 8,
+      "missingImages": 0,
+      "links": 2384,
+      "externalLinks": 1659,
+      "legacyHostLinks": 24,
+      "otherVersionLinks": 0,
+      "crossProductLinks": 97,
+      "linksViaRedirect": 0,
+      "droppedLinks": 0,
+      "droppedAnchors": 0,
+      "placeholdersWrapped": 15,
+      "admonitions": 430,
+      "details": 1,
+      "tabSets": 40,
+      "codeBlocks": 203,
+      "indentedCode": 1,
+      "htmlBlocks": 1653,
+      "explicitIds": 16,
+      "basePathInCode": 0,
+      "basePathInText": 2,
+      "unknownElements": 0,
+      "unknownLanguages": [],
+      "generatedDescriptions": 497,
+      "sidebarLabels": 395,
+      "relativeFallback": 4,
+      "unlisted": 1,
+      "placeholders_": 0,
+      "sharedPages": 0,
+      "cloudOnlyPages": 0,
+      "selfHostedOnlyPages": 0,
+      "markedPages": 0,
+      "markers": 0,
+      "flatMerged": 0,
+      "editionCheckFailures": 0,
+      "imageVariants": 0,
+      "linkVariants": 0,
+      "includesExpanded": 0,
+      "includeFrontMatter": 0,
+      "flaggedOffPages": 0,
+      "specsFixed": 0,
+      "titlesVarying": 0,
+      "variants": 0,
+      "adjacentAlternatives": 0,
+      "cloudCounterparts": 0,
+      "ambiguousCounterparts": 0,
+      "overviewPages": 1,
+      "exportSingleFolders": 0,
+      "legacyRedirectsExternal": 0,
+      "legacyRedirectsUnresolved": 0,
+      "legacyRedirects": 515,
+      "legacyRedirectsSource": 17,
+      "acceptedByOverrides": 0
+    },
+    "issues": {
+      "indented-code": 1,
+      "not-in-nav": 1
+    },
+    "compileFailures": 0,
+    "overrides": {
+      "file": "platform-security.overrides.yaml",
+      "patches": 4,
+      "patchesApplied": 4,
+      "accepted": 0
+    }
+  },
+  "items": [
+    {
+      "kind": "indented-code",
+      "file": "security-announcements/cve-justifications/2022/CVE-2022-22965.md",
+      "message": "indented block \"* `class\\..*`\" became a code block (Python-Markdown read it as code too)"
+    },
+    {
+      "kind": "not-in-nav",
+      "file": "security-announcements/cve-to-wso2-security-advisory-mapping.md",
+      "message": "not in the legacy nav; published unlisted (no sidebar entry, as before)"
+    }
+  ]
+}

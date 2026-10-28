@@ -1,0 +1,33 @@
+---
+title: Tooling Recommendations for Secure Coding
+description: Tooling Recommendations for Secure Coding.  # generated from the first paragraph; a writer should improve it
+type: how-to
+sidebar_label: Tooling recommendations for secure coding
+sidebar_position: 6
+---
+
+## Security Related Static Code Analysis
+Find Security Bugs[^2], FindBugs plugin is the recommended tool for performing static security analysis.
+
+:::tip[WSO2 Document Reference]
+Further information on using Find Security Bugs with WSO2 recommended security policies are available in the [Engineering Guidelines - Tooling - Static Code Analysis using FindSecurityBugs](../static-code-analysis-using-findsecuritybugs.mdx) document.
+:::
+
+## Security Related Dynamic Analysis
+OWASP Zed Attack Proxy(ZAP)[^1] is the recommended tool for performing dynamic security analysis. 
+
+:::tip[WSO2 Document Reference]
+Further information on using OWASP Zed Attack Proxy (ZAP) with WSO2 recommended security policies are available in the [Engineering Guidelines - Tooling - Dynamic Analysis with OWASP ZAP](../dynamic-analysis-with-owasp-zap.mdx) document.
+:::
+
+## Dependency Vulnerability Analysis
+OWASP Dependency Check[^3] is the recommended tool for performing dependency vulnerability analysis.
+
+:::tip[WSO2 Document Reference]
+Further information on using OWASP Dependency Check is documented at [Engineering Guidelines - External Dependency Analysis using OWASP Dependency Check](../external-dependency-analysis-analysis-using-owasp-dependency-check.mdx) document.
+:::
+
+## References
+[^1]: [https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+[^2]: [http://find-sec-bugs.github.io/](http://find-sec-bugs.github.io/)
+[^3]: [https://www.owasp.org/index.php/OWASP_Dependency_Check](https://www.owasp.org/index.php/OWASP_Dependency_Check)

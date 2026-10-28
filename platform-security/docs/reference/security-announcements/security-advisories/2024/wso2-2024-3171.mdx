@@ -1,0 +1,42 @@
+---
+title: Security Advisory WSO2-2024-3171/CVE-2024-1440
+description: 'Published: December 16, 2024'  # generated from the first paragraph; a writer should improve it
+type: reference
+sidebar_label: WSO2-2024-3171
+sidebar_position: 12
+---
+
+Published: December 16, 2024
+
+Version: 1.0.0
+
+Severity: Medium
+
+CVSS Score: 5.4 (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N)
+
+CVE IDs: [CVE-2024-1440](https://www.cve.org/CVERecord?id=CVE-2024-1440)
+
+---
+
+### AFFECTED PRODUCTS
+* WSO2 API Manager : 4.0.0, 3.2.0, 3.1.0
+* WSO2 Identity Server : 7.0.0, 6.1.0, 6.0.0, 5.11.0, 5.10.0
+* WSO2 Identity Server as Key Manager : 5.10.0
+
+### OVERVIEW
+A Potential Open Redirection vulnerability has been identified on authentication endpoint when multi-option authentication is enabled. 
+
+### DESCRIPTION
+An open redirection vulnerability could occur due to improper validation of the multi-option URL, when multi-option Authentication is enabled.
+
+### IMPACT
+An attacker could persuade a user to click on a valid link containing a malicious payload, and get redirected to an attacker-controlled page where a phishing attack could be executed to obtain sensitive information or cause harm.
+
+### SOLUTION
+If the latest version of the affected WSO2 product is not mentioned under the affected product list, you may migrate to the latest version to receive security fixes. Otherwise you may apply the relevant fixes to the product based on the public fix: 
+
+* [https://github.com/wso2/carbon-identity-framework/pull/5747](https://github.com/wso2/carbon-identity-framework/pull/5747)
+
+:::info
+**If you are a WSO2 customer with Support Subscription, please use [WSO2 Updates](https://wso2.com/updates/) in order to apply the fix.**
+:::

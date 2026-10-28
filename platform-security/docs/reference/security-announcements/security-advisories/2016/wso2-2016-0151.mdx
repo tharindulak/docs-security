@@ -1,0 +1,42 @@
+---
+title: Security Advisory WSO2-2016-0151
+description: 'Published: October 31, 2016'  # generated from the first paragraph; a writer should improve it
+type: reference
+sidebar_label: WSO2-2016-0151
+sidebar_position: 8
+---
+
+Published: October 31, 2016
+
+---
+
+### AFFECTED PRODUCTS
+* WSO2 API Manager 2.0.0
+
+### OVERVIEW
+An XSS vulnerability was discovered in the error responses for the API requests received by API Manager 2.0.0 for invalid resource paths.
+
+### DESCRIPTION
+The requests made to an API with resource paths containing invalid contexts/resource names/methods that are made of malicious scripts could result in reflected XSS attacks via the error responses returned by the API Manager.
+
+### IMPACT
+If the error response containing the malicious script which was sent along with the request gets displayed on the client side, that script could get executed in the user’s browser resulting in a reflected XSS attack.
+
+### SOLUTION
+
+#### Community Users (Opensource)
+
+Community users may apply the relevant fixes to the product based on the public fix(s):
+
+* [https://github.com/wso2/product-apim/pull/1104](https://github.com/wso2/product-apim/pull/1104)
+
+#### Commercial Users
+Apply the following patches based on your products by following the instructions in the README file. Patches can also be downloaded from [Security Patch Releases](https://wso2.com/security-patch-releases/). If you have any questions, post them to [security@wso2.com](mailto:security@wso2.com).
+
+| **Product Name** | **Version** | **Patch** | **U2 Update Level** |
+| :------ | :------ | :---- | :---- |
+| WSO2 API Manager | 2.0.0 | WSO2-CARBON-PATCH-4.4.0-0398 | 0 |
+
+:::info
+**If you are using newer versions of the products than the ones mentioned in the "AFFECTED PRODUCTS" section, this vulnerability is fixed.**
+:::

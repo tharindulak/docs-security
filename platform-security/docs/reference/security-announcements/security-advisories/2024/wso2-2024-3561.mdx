@@ -1,0 +1,110 @@
+---
+title: Security Advisory WSO2-2024-3561/CVE-2024-6914
+description: 'Published: November 10, 2024'  # generated from the first paragraph; a writer should improve it
+type: reference
+sidebar_label: WSO2-2024-3561
+sidebar_position: 6
+---
+
+Published: November 10, 2024
+
+Version: 1.0.0
+
+CVE IDs: [CVE-2024-6914](https://www.cve.org/CVERecord?id=CVE-2024-6914)
+
+---
+
+### AFFECTED PRODUCTS
+* WSO2 API Manager 4.3.0, 4.2.0, 4.1.0, 4.0.0, 3.2.1, 3.2.0, 3.1.0, 3.0.0, 2.6.0, 2.5.0, 2.2.0
+* WSO2 Identity Server 7.0.0, 6.1.0, 6.0.0, 5.11.0, 5.10.0, 5.9.0, 5.8.0, 5.7.0, 5.6.0, 5.5.0, 5.4.1, 5.4.0, 5.3.0
+* WSO2 Identity Server as Key Manager 5.10.0, 5.9.0, 5.7.0, 5.6.0, 5.5.0, 5.3.0
+* WSO2 Open Banking AM 2.0.0, 1.5.0, 1.4.0, 1.3.0
+* WSO2 Open Banking IAM 2.0.0
+* WSO2 Open Banking KM 1.5.0, 1.4.0, 1.3.0
+
+:::info
+Please note that this announcement includes only the product versions affected as per our [backporting policy](../../../../concepts/security-processes/vulnerability-management-process.mdx#backport-policy).
+:::
+
+### OVERVIEW
+Account takeover vulnerability via account recovery related SOAP admin service.
+
+### DESCRIPTION
+This vulnerability is exploitable only through SOAP Admin Services exposed via the `/services` context path of WSO2 product. If you have followed [Security Guidelines for Production Deployment](../../../../guides/security-guidelines/security-guidelines-for-production-deployment.mdx) and have disabled access to these endpoints from untrusted networks the impact is reduced. Please check the severity information below for more details.
+
+By exploiting this vulnerability, a malicious actor could reset the password of any user account. The successful exploitation of this flaw would enable the malicious actor to take control of targeted accounts, including those with elevated privileges such as the admin user, thereby posing a significant security risk.
+
+When [Security Guidelines for Production Deployment](../../../../guides/security-guidelines/security-guidelines-for-production-deployment.mdx) are **not** followed and `/services` context is public exposed (Worst Case)
+
+* Severity: Critical
+* CVSS Score: 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
+* [https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
+
+When "[Security Guidelines for Production Deployment](../../../../guides/security-guidelines/security-guidelines-for-production-deployment.mdx)" are followed and `/services` context is only accessible by trusted networks
+
+* Severity: High
+* CVSS Score: 8.8 (CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
+* [https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)
+
+### SOLUTION
+You may apply the relevant fixes to the product based on the public fix: 
+
+* [https://github.com/wso2/carbon-identity-framework/pull/5818](https://github.com/wso2/carbon-identity-framework/pull/5818)
+
+You can use the script provided below to apply a temporary fix for your deployment. However, please note that this temporary fix is fully effective in resolving the identified vulnerability.
+
+* [WSO2-2024-3561_temporary_mitigation.zip](../../../../../assets/attachments/WSO2-2024-3561_temporary_mitigation.zip)
+
+Once the temporary mitigation steps are applied, the deprecated self-user recovery `UserInformationRecoveryService` SOAP admin services will require an account with 'admin' permissions. If you are using these deprecated `UserInformationRecoveryService` SOAP services in any custom implementations or related product features, please ensure that all your business use cases continue to function without interruption.
+
+#### Fix Verification
+
+Please refer to the **Validating the fix** section in the README file of [WSO2-2024-3561_temporary_mitigation.zip](../../../../../assets/attachments/WSO2-2024-3561_temporary_mitigation.zip) for the validation steps.
+
+:::info
+**If you are a WSO2 customer with Support Subscription, please use [WSO2 Updates](https://wso2.com/updates/) in order to apply the fix. You can refer to the update level information in the table below.**
+:::
+
+| Product Name | Product Version | U2 Update Level |
+|:------------:|:---------------:|:---------------:|
+| wso2am       | 2.2.0           | 55              |
+| wso2am       | 2.5.0           | 82              |
+| wso2am       | 2.6.0           | 141             |
+| wso2am       | 3.0.0           | 161             |
+| wso2am       | 3.1.0           | 292             |
+| wso2am       | 3.2.0           | 382             |
+| wso2am       | 3.2.1           | 14              |
+| wso2am       | 4.0.0           | 304             |
+| wso2am       | 4.1.0           | 164             |
+| wso2am       | 4.2.0           | 99              |
+| wso2am       | 4.3.0           | 15              |
+| wso2is       | 5.3.0           | 31              |
+| wso2is       | 5.4.0           | 30              |
+| wso2is       | 5.4.1           | 35              |
+| wso2is       | 5.5.0           | 48              |
+| wso2is       | 5.6.0           | 56              |
+| wso2is       | 5.7.0           | 122             |
+| wso2is       | 5.8.0           | 104             |
+| wso2is       | 5.9.0           | 155             |
+| wso2is       | 5.10.0          | 317             |
+| wso2is       | 5.11.0          | 363             |
+| wso2is       | 6.0.0           | 207             |
+| wso2is       | 6.1.0           | 184             |
+| wso2is       | 7.0.0           | 56              |
+| wso2is-km    | 5.3.0           | 36              |
+| wso2is-km    | 5.5.0           | 49              |
+| wso2is-km    | 5.6.0           | 70              |
+| wso2is-km    | 5.7.0           | 121             |
+| wso2is-km    | 5.9.0           | 162             |
+| wso2is-km    | 5.10.0          | 311             |
+| wso2-obam    | 1.3.0           | 130             |
+| wso2-obam    | 1.4.0           | 133             |
+| wso2-obam    | 1.5.0           | 135             |
+| wso2-obam    | 2.0.0           | 341             |
+| wso2-obkm    | 1.3.0           | 113             |
+| wso2-obkm    | 1.4.0           | 129             |
+| wso2-obkm    | 1.5.0           | 119             |
+| wso2-obiam   | 2.0.0           | 362             |
+
+### CREDITS
+WSO2 thanks, **Anonymous working with Trend Micro Zero Day Initiative** for responsibly reporting the identified issue and working with us as we addressed it.
